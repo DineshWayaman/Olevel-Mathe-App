@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFADF"
+    tools:context=".GradeSelect">
+
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/txtselct"
+        android:layout_below="@id/banner_container"
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Grade"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_below="@id/txtselct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btngrade10"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Grade 10"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/circle_button_two"/>
+
+    <Button
+        android:id="@+id/btngrade11"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Grade 11"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/circle_button_two"/>
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:text="2018-2020 W Creation -All Rights Reserved."/>
+
+</RelativeLayout>

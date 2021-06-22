@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "473220667615",
+    "firebase_url": "https://ordinary-level-mathes.firebaseio.com",
+    "project_id": "ordinary-level-mathes",
+    "storage_bucket": "ordinary-level-mathes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473220667615:android:5d8f78183f88f91ecc316a",
+        "android_client_info": {
+          "package_name": "com.wcreation.ordinarylevel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473220667615-fhsjplnkqc1se3sioq7ov5qaacr9q91f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wcreation.ordinarylevel",
+            "certificate_hash": "f73168a3c865b89a83ff29153af8fb21dc395f41"
+          }
+        },
+        {
+          "client_id": "473220667615-l3f0ohs69hfp0omn0fmqm93s32384i1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAttrCCe75H5ocMI5pTiCosERxYfgFyhqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473220667615-l3f0ohs69hfp0omn0fmqm93s32384i1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

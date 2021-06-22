@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wcreation.ordinarylevel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SchoolPapersActivity"></activity>
+        <activity android:name=".InfoAndPapers.DailyUpdateChoose" />
+        <activity android:name=".InfoAndPapers.DailyUpdateQAnsweres" />
+        <activity android:name=".InfoAndPapers.DailyUpdateQuestionOpen" />
+        <activity android:name=".InfoAndPapers.DailyUpdateQuestionUpdate" />
+        <activity android:name=".InfoAndPapers.InformationUpdate" />
+        <activity android:name=".HomePageActivity"></activity>
+        <activity android:name=".InfoAndPapers.Information" />
+        <activity android:name=".InfoAndPapers.DailyUpdateQuestion" />
+        <activity android:name=".NewInfoandPapers" />
+        <activity android:name=".ModelPapers.ModelPaper3Answer" />
+        <activity android:name=".ModelPapers.ModelPaper2Part2Answer" />
+        <activity android:name=".ModelPapers.ModelPaper2Part1Answer" />
+        <activity android:name=".ModelPapers.ModelPaper1Part2Answer" />
+        <activity android:name=".ModelPapers.ModelPaper1Part1Answer" />
+        <activity android:name=".ModelPapers.ModelPaper3" />
+        <activity android:name=".ModelPapers.ModelPaper2Part2" />
+        <activity android:name=".ModelPapers.ModelPaper2Part1" />
+        <activity android:name=".ModelPapers.ModelPaper1Part2" />
+        <activity android:name=".ModelPapers.ModelPaper1Part1" />
+        <activity android:name=".ModelPpers" />
+        <activity android:name=".PastPapers.PastPaper2019" />
+        <activity android:name=".PastPapers.PastPaper2018Part2" />
+        <activity android:name=".PastPapers.PastPaper2018Part1" />
+        <activity android:name=".PastPapers.PastPaper2017Part2" />
+        <activity android:name=".PastPapers.PastPaper2017Part1" />
+        <activity android:name=".PastPapers.PastPaper2016Part2" />
+        <activity android:name=".PastPapers.PastPaper2016Part1" />
+        <activity android:name=".PastPapers.PastPaper2015" />
+        <activity android:name=".PastPapers.PastPaper2013" />
+        <activity android:name=".GradeEleven.GradeElevenTwentyFour" />
+        <activity android:name=".GradeEleven.GradeElevenTwentyThree" />
+        <activity android:name=".GradeEleven.GradeElevenTwentyTwo" />
+        <activity android:name=".GradeEleven.GradeElevenTwenty_one" />
+        <activity android:name=".GradeEleven.GradeElevenTwenty" />
+        <activity android:name=".GradeEleven.GradeElevenNintyne" />
+        <activity android:name=".GradeEleven.GradeElevenEightyne" />
+        <activity android:name=".GradeEleven.GradeElevenSeventyne" />
+        <activity android:name=".GradeEleven.GradeElevenSixtyne" />
+        <activity android:name=".GradeEleven.GradeElevenFiftyne" />
+        <activity android:name=".GradeEleven.GradeElevenFourtyne" />
+        <activity android:name=".GradeEleven.GradeElevenThirtyne" />
+        <activity android:name=".GradeEleven.GradeElevenTwelwe" />
+        <activity android:name=".GradeEleven.GradeElevenEleven" />
+        <activity android:name=".GradeEleven.GradeElevenTen" />
+        <activity android:name=".GradeEleven.GradeElevenNine" />
+        <activity android:name=".GradeEleven.GradeElevenEight" />
+        <activity android:name=".GradeEleven.GradeElevenSeven" />
+        <activity android:name=".GradeEleven.GradeElevenSix" />
+        <activity android:name=".GradeEleven.GradeElevenFive" />
+        <activity android:name=".GradeEleven.GradeElevenFour" />
+        <activity android:name=".GradeEleven.GradeElevenThree" />
+        <activity android:name=".GradeEleven.GradeElevenTwo" />
+        <activity android:name=".GradeEleven.GradeElevenOne" />
+        <activity android:name=".SchoolBooksGradeeleven" />
+        <activity android:name=".ExamPasspapers" />
+        <activity android:name=".GradeTen.Lessoneighty" />
+        <activity android:name=".GradeTen.LessonthirtyTwo" />
+        <activity android:name=".GradeTen.LessonthirtyOne" />
+        <activity android:name=".GradeTen.Lessonthirty" />
+        <activity android:name=".GradeTen.LessontwentyNine" />
+        <activity android:name=".GradeTen.LessontwentyEight" />
+        <activity android:name=".GradeTen.LessontwentySeven" />
+        <activity android:name=".GradeTen.LessontwentySix" />
+        <activity android:name=".GradeTen.LessontwentyFive" />
+        <activity android:name=".GradeTen.LessontwentyFour" />
+        <activity android:name=".GradeTen.LessontwentyThree" />
+        <activity android:name=".GradeTen.LessontwentyTwo" />
+        <activity android:name=".GradeTen.LessontwentyOne" />
+        <activity android:name=".GradeTen.Lessontwenty" />
+        <activity android:name=".GradeTen.Lessonninty" />
+        <activity android:name=".GradeTen.Lessonseventy" />
+        <activity android:name=".GradeTen.Lessonsixty" />
+        <activity android:name=".GradeTen.Lessonfiftyne" />
+        <activity android:name=".GradeTen.Lessonfortyne" />
+        <activity android:name=".GradeTen.Lessonthirtyne" />
+        <activity android:name=".GradeTen.Lessontwelwe" />
+        <activity android:name=".GradeTen.Lessoneleven" />
+        <activity android:name=".GradeTen.Lessonten" />
+        <activity android:name=".GradeTen.Lessonnine" />
+        <activity android:name=".GradeTen.Lessoneight" />
+        <activity android:name=".GradeTen.Lessonseven" />
+        <activity android:name=".GradeTen.Lessonsix" />
+        <activity android:name=".GradeTen.Lessonfive" />
+        <activity android:name=".GradeTen.Lessonfour" />
+        <activity android:name=".GradeTen.Lessonthree" />
+        <activity android:name=".GradeTen.Lessontwo" />
+        <activity android:name=".GradeTen.Parimithiya" />
+        <activity android:name=".SchoolBooks" />
+        <activity android:name=".GradeSelect" />
+        <activity
+            android:name=".SplassScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

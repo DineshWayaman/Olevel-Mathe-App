@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradiantsplash"
+    tools:context=".SplassScreen">
+
+
+
+    <ImageView
+        android:id="@+id/imgSplass"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splaash" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_alignParentBottom="true"
+            android:text="2018-2020 W Creation -All Rights Reserved."/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoAndPapers.Information">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="සාමාන්‍ය පෙළ පිළිබඳව නවතම තොරතුරු"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="375dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#D31212"
+                android:text="# Information One"/>
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#3D5AFE"
+                android:text="# Information One"/>
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#D31212"
+                android:text="# Information One"/>
+
+            <TextView
+                android:id="@+id/info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#1B1717"
+                android:text="# Information One"/>
+
+            <TextView
+                android:id="@+id/info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#D31212"
+                android:text="# Information One"/>
+
+            <TextView
+                android:id="@+id/info6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#1A7281"
+                android:text="# Information One"/>
+
+            <TextView
+                android:id="@+id/info7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#D31212"
+                android:text="# Information One"/>
+
+            <TextView
+                android:id="@+id/info8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#B012D3"
+                android:text="# Information One"/>
+
+            <TextView
+                android:id="@+id/info9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#D31212"
+                android:text="# Information One"/>
+
+            <TextView
+                android:id="@+id/info10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#804A07"
+                android:text="# Information One"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
